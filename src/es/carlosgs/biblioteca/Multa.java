@@ -15,8 +15,8 @@ public class Multa {
 
     public void calcularSancion() {
         Integer calculo = 0;
-        // Recorrer los prestamos del socio y comprobar si en alguno ha vencido la fecha
-        // por cada día
+        // Recorrer los prestamos del socio y comprobar si en alguno ha vencido la fecha.
+        // Por cada día de retraso y libro 2 días de sanción.
 
         setSancion(calculo);
     }

@@ -1,5 +1,6 @@
 package es.carlosgs.biblioteca;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Socio {
@@ -8,6 +9,8 @@ public class Socio {
     private String direccion;
     private String telefono;
 
-    private List<Prestamo> prestamos;
+    // "Los lectores pueden tener un máximo de 3 libros en préstamo."
+    private List<Prestamo> prestamos = new ArrayList<>(3);
     private Multa sancion;
+
 }
